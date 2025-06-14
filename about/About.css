@@ -1,0 +1,393 @@
+
+*{
+    padding: 0%; margin: 0%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow-x: hidden; */
+  }
+  body{
+    overflow-x: hidden;
+  }
+
+  .about-main{
+height: auto;
+width: 100%;
+/* border: 1px solid red ; */
+  }
+
+  .about-image{
+    height: 520px;
+width: 100%;
+/* border: 1px solid red ; */
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+/* text-align: center; */
+color: white;
+font-size: 4rem;
+/* background-color: pink; */
+font-weight: 600;
+background-image: url(C:\Users\ankit\Desktop\about\about\src\components\about\cartoon-2.jpg);
+  }
+
+/* -------------------------------------------- */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  padding: 40px;
+  color: #333;
+} */
+
+.about-section {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.about-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.about-content h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1rem; line-height: 1.5;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.about1-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about1-image img {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+}
+
+
+/* ---------------------------------------------- */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #111;
+  padding: 40px;
+} */
+
+.vm-section {
+  /* height: 250px; */
+    /* border: 1px solid red;  */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.vm-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.vm-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.vm-box h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vm-box p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* --------------------------------------- */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  padding: 40px;
+  color: #333;
+} */
+
+.team-header {
+    padding: 40px;
+  /* margin-top: 20px;
+  border: 1px solid red;
+  height: 200px; */
+    color: #333;
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
+}
+
+.team-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #2b2b2b;
+}
+
+.team-header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+
+/* ------------------------------------------------------- */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+  padding: 40px;
+} */
+
+.expert-section {
+    color: #333;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.expert-card {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-width: 500px;
+  gap: 20px;
+  align-items: center;
+}
+
+.expert-text {
+  flex: 1;
+}
+
+.expert-text h2 {
+  color: #2d7a41;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.expert-text h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.expert-text p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.expert-image {
+  flex-shrink: 0;
+}
+
+.expert-image img {
+  width: 180px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+
+/* --------------------------------------------------------- */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  padding: 40px;
+  color: #333;
+} */
+
+.founder-card {
+   padding: 40px;
+  color: #333;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 30px;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.founder-left {
+  text-align: center;
+  max-width: 300px;
+}
+
+.founder-left img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.founder-left h3 {
+  margin-top: 15px;
+  color: #2d7a41;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.founder-left p {
+  margin-top: 5px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+ 
+.divider { 
+  /* border: 1px solid red; */
+  border-left: 1px solid #ccc;
+  height: 350px;
+  margin: 0 10px;
+}
+
+.founder-right {
+  flex: 1;
+}
+
+.founder-right h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.founder-right p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
+/* ---------------------------------------------------- */
+
+
+.offerings { 
+  /* border: 1px solid red; */
+   color: #333;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+  /* gap: 60px; */
+}
+
+.offerings h1 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #2e2e2e;
+}
+
+.grid-container {  
+   /* border: 1px solid rgb(68, 66, 66); */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap:60px 20px;
+  justify-items: center;
+}
+
+.item { 
+    /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.item p {
+  margin: 0;
+  color: #2a6a54;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
